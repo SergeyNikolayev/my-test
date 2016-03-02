@@ -24,7 +24,7 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
@@ -62,10 +62,12 @@
     font-size: 15px;
     margin-bottom: 13px;
 }
-    
-    
-    
-    
-    
-    
-    
+
+img:hover {
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  from {border-top-right-radius: 0px;}
+  to {border-top-right-radius: 300px;}
+}
